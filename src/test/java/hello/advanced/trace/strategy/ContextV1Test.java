@@ -1,6 +1,7 @@
 package hello.advanced.trace.strategy;
 
 import hello.advanced.trace.strategy.code.strategy.ContextV1;
+import hello.advanced.trace.strategy.code.strategy.Strategy;
 import hello.advanced.trace.strategy.code.strategy.StrategyLogic1;
 import hello.advanced.trace.strategy.code.strategy.StrategyLogic2;
 import hello.advanced.trace.tamplate.code.AbstractTemplate;
@@ -52,6 +53,64 @@ public class ContextV1Test {
 
         StrategyLogic2 strategyLogic2 = new StrategyLogic2();
         ContextV1 contextV2 = new ContextV1(strategyLogic2);
+        contextV2.execute();
+    }
+
+    /**
+     * 익명 내부클래스로 구현
+     */
+    @Test
+    void strategyV2() {
+        Strategy strategyLogic1 = new Strategy() {
+
+            @Override
+            public void call() {
+                log.info("비스니스 로직1 실행");
+            }
+        };
+        ContextV1 contextV1 = new ContextV1(strategyLogic1);
+        contextV1.execute();
+        Strategy strategyLogic2 = new Strategy() {
+
+            @Override
+            public void call() {
+                log.info("비스니스 로직2 실행");
+            }
+        };
+        ContextV1 contextV2 = new ContextV1(strategyLogic2);
+        contextV2.execute();
+    }
+
+    @Test
+    void strategyV3() {
+        ContextV1 contextV1 = new ContextV1(new Strategy() {
+
+            @Override
+            public void call() {
+                log.info("비스니스 로직1 실행");
+            }
+        });
+        contextV1.execute();
+
+        ContextV1 contextV2 = new ContextV1(new Strategy() {
+
+            @Override
+            public void call() {
+                log.info("비스니스 로직2 실행");
+            }
+        });
+        contextV2.execute();
+    }
+
+    /**
+     * 람다로 구현
+     */
+    @Test
+    void strategyV4() {
+        ContextV1 contextV1 = new ContextV1(() -> log.info("비스니스 로직1 실행"));
+        contextV1.execute();
+
+        ContextV1 contextV2 = new ContextV1(() -> log.info("비스니스 로직2 실행"));
         contextV2.execute();
     }
 }

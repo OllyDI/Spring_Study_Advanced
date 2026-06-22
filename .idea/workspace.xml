@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e30be10f-4ea0-41ec-9134-21d06389392a" name="변경" comment="26.06.21">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/AdvancedApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/LogTraceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v0/OrderControllerV0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v0/OrderRepositoryV0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v0/OrderServiceV0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v1/OrderControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v1/OrderRepositoryV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v1/OrderServiceV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v2/OrderControllerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v2/OrderRepositoryV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v2/OrderServiceV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v3/OrderControllerV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v3/OrderRepositoryV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v3/OrderServiceV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v4/OrderControllerV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v4/OrderRepositoryV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v4/OrderServiceV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v5/OrderControllerV5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v5/OrderRepositoryV5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/app/v5/OrderServiceV5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/TraceId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/TraceStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/callback/TraceCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/callback/TraceTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/hellotrace/HelloTraceV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/hellotrace/HelloTraceV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/logtrace/FieldLogTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/logtrace/LogTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/logtrace/ThreadLocalLogTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/advanced/trace/template/AbstractTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/AdvancedApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/hellotrace/HelloTraceV1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/hellotrace/HelloTraceV2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/logtrace/FieldLogTraceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/logtrace/ThreadLocalLogTraceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/ContextV1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/ContextV2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/TemplateCallbackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/strategy/ContextV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/strategy/ContextV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/strategy/StrategyLogic1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/strategy/StrategyLogic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/template/Callback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/strategy/code/template/TimeLogTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/tamplate/TemplateMethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/tamplate/code/AbstractTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/tamplate/code/SubClassLogic1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/tamplate/code/SubClassLogic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/threadlocal/FieldServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/threadlocal/ThreadLocalServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/threadlocal/code/FieldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/advanced/trace/threadlocal/code/ThreadLocalService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OllyDI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OllyDI/Spring_Study_Advanced.git&quot;,
+    &quot;accountId&quot;: &quot;242ed631-bb02-4437-ad88-0ae67ecb3458&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3EqFYsjzwa4qPye7SuynC2a6H5G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HelloTraceV1Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advanced 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldLogTraceTest.begin_end_level2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldLogTraceTest.begin_exception_level2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldServiceTest.field.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HelloTraceV1Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV1Test.begin_exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV2Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV2Test.begin_exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateCallbackTest.callbackV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateCallbackTest.callbackV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreadLocalLogTraceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreadLocalServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdvancedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study/Spring_Study/스프링_고급편/코드/advanced/src/main/java/hello/advanced/app/v5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v5" />
+      <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v4" />
+      <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v3" />
+      <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v2" />
+      <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hello.advanced.trace.threadlocal" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.advanced.trace.logtrace" />
+      <recent name="hello.advanced.trace.hellotrace" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.advanced.trace.strategy.code.strategy" />
+      <recent name="hello.advanced.trace.tamplate.code" />
+      <recent name="hello.advanced.trace.logtrace" />
+      <recent name="hello.advanced.trace.threadlocal" />
+      <recent name="hello.advanced.trace.hellotrace" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdvancedApplication">
+    <configuration name="ContextV2Test.strategyV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="hello.advanced.trace.strategy.ContextV2Test" />
+      <option name="METHOD_NAME" value="strategyV1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextV2Test.strategyV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="hello.advanced.trace.strategy.ContextV2Test" />
+      <option name="METHOD_NAME" value="strategyV2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextV2Test.strategyV3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="hello.advanced.trace.strategy.ContextV2Test" />
+      <option name="METHOD_NAME" value="strategyV3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateCallbackTest.callbackV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="hello.advanced.trace.strategy.TemplateCallbackTest" />
+      <option name="METHOD_NAME" value="callbackV1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateCallbackTest.callbackV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="hello.advanced.trace.strategy.TemplateCallbackTest" />
+      <option name="METHOD_NAME" value="callbackV2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="advanced.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.advanced.AdvancedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TemplateCallbackTest.callbackV2" />
+        <item itemvalue="JUnit.TemplateCallbackTest.callbackV1" />
+        <item itemvalue="JUnit.ContextV2Test.strategyV3" />
+        <item itemvalue="JUnit.ContextV2Test.strategyV2" />
+        <item itemvalue="JUnit.ContextV2Test.strategyV1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e30be10f-4ea0-41ec-9134-21d06389392a" name="변경" comment="" />
+      <created>1780898243180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780898243180</updated>
+      <workItem from="1780898244313" duration="4267000" />
+      <workItem from="1780979648993" duration="3634000" />
+      <workItem from="1781062385764" duration="24000" />
+      <workItem from="1781162607893" duration="1207000" />
+      <workItem from="1781235999160" duration="1743000" />
+      <workItem from="1781500462284" duration="964000" />
+      <workItem from="1781591220461" duration="3419000" />
+      <workItem from="1781673876929" duration="2707000" />
+      <workItem from="1781781790840" duration="18000" />
+      <workItem from="1781840333539" duration="2458000" />
+      <workItem from="1782047977546" duration="18000" />
+      <workItem from="1782104579007" duration="313000" />
+      <workItem from="1782104902261" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="26.06.08">
+      <option name="closed" value="true" />
+      <created>1780898989959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780898989959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="26.06.09">
+      <option name="closed" value="true" />
+      <created>1780979663456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780979663456</updated>
+    </task>
+    <task id="LOCAL-00003" summary="26.06.10">
+      <option name="closed" value="true" />
+      <created>1781062395278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781062395278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="26.06.11">
+      <option name="closed" value="true" />
+      <created>1781163658921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781163658921</updated>
+    </task>
+    <task id="LOCAL-00005" summary="26.06.12">
+      <option name="closed" value="true" />
+      <created>1781236654070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781236654070</updated>
+    </task>
+    <task id="LOCAL-00006" summary="26.06.15">
+      <option name="closed" value="true" />
+      <created>1781500476978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1781500476978</updated>
+    </task>
+    <task id="LOCAL-00007" summary="26.06.16">
+      <option name="closed" value="true" />
+      <created>1781594654007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1781594654007</updated>
+    </task>
+    <task id="LOCAL-00008" summary="26.06.17">
+      <option name="closed" value="true" />
+      <created>1781675152997</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781675152997</updated>
+    </task>
+    <task id="LOCAL-00009" summary="26.06.18">
+      <option name="closed" value="true" />
+      <created>1781781800202</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781781800202</updated>
+    </task>
+    <task id="LOCAL-00010" summary="26.06.19">
+      <option name="closed" value="true" />
+      <created>1781841180240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781841180240</updated>
+    </task>
+    <task id="LOCAL-00011" summary="26.06.21">
+      <option name="closed" value="true" />
+      <created>1782047987227</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1782047987227</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="26.06.08" />
+    <MESSAGE value="26.06.09" />
+    <MESSAGE value="26.06.10" />
+    <MESSAGE value="26.06.11" />
+    <MESSAGE value="26.06.12" />
+    <MESSAGE value="26.06.15" />
+    <MESSAGE value="26.06.16" />
+    <MESSAGE value="26.06.17" />
+    <MESSAGE value="26.06.18" />
+    <MESSAGE value="26.06.19" />
+    <MESSAGE value="26.06.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.06.21" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

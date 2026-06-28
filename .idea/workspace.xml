@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e30be10f-4ea0-41ec-9134-21d06389392a" name="변경" comment="26.06.21">
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderControllerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderControllerV1Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderRepositoryV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderRepositoryV1Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderServiceV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v1/OrderServiceV1Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v2/OrderControllerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v2/OrderRepositoryV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v2/OrderServiceV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v3/OrderControllerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v3/OrderRepositoryV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/app/v3/OrderServiceV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/config/AppV1Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/config/AppV2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
+    <list default="true" id="e30be10f-4ea0-41ec-9134-21d06389392a" name="변경" comment="26.06.2">
+      <change afterPath="$PROJECT_DIR$/proxy-start/src/test/java/hello/proxy/pureproxy/proxy/ProxyPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-start/src/test/java/hello/proxy/pureproxy/proxy/code/CacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-start/src/test/java/hello/proxy/pureproxy/proxy/code/ProxyPatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-start/src/test/java/hello/proxy/pureproxy/proxy/code/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-start/src/test/java/hello/proxy/pureproxy/proxy/code/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/config/AppV1Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-start/src/main/java/hello/proxy/config/AppV1Config.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,55 +60,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.HelloTraceV1Test.begin_end.executor": "Run",
-    "Gradle.advanced 빌드.executor": "Run",
-    "JUnit.ContextV1Test.strategyV0.executor": "Run",
-    "JUnit.ContextV1Test.strategyV1.executor": "Run",
-    "JUnit.ContextV1Test.strategyV2.executor": "Run",
-    "JUnit.ContextV1Test.strategyV3.executor": "Run",
-    "JUnit.ContextV1Test.strategyV4.executor": "Run",
-    "JUnit.ContextV2Test.strategyV1.executor": "Run",
-    "JUnit.ContextV2Test.strategyV2.executor": "Run",
-    "JUnit.ContextV2Test.strategyV3.executor": "Run",
-    "JUnit.FieldLogTraceTest.begin_end_level2.executor": "Run",
-    "JUnit.FieldLogTraceTest.begin_exception_level2.executor": "Run",
-    "JUnit.FieldServiceTest.field.executor": "Debug",
-    "JUnit.HelloTraceV1Test.begin_end.executor": "Run",
-    "JUnit.HelloTraceV1Test.begin_exception.executor": "Run",
-    "JUnit.HelloTraceV2Test.begin_end.executor": "Run",
-    "JUnit.HelloTraceV2Test.begin_exception.executor": "Run",
-    "JUnit.TemplateCallbackTest.callbackV1.executor": "Run",
-    "JUnit.TemplateCallbackTest.callbackV2.executor": "Run",
-    "JUnit.TemplateMethodTest.templateMethodV0.executor": "Run",
-    "JUnit.TemplateMethodTest.templateMethodV1.executor": "Run",
-    "JUnit.TemplateMethodTest.templateMethodV2.executor": "Run",
-    "JUnit.ThreadLocalLogTraceTest.executor": "Run",
-    "JUnit.ThreadLocalServiceTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.AdvancedApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/study/Spring_Study/스프링_고급편/코드/advanced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HelloTraceV1Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advanced 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV1Test.strategyV4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContextV2Test.strategyV3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldLogTraceTest.begin_end_level2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldLogTraceTest.begin_exception_level2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FieldServiceTest.field.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HelloTraceV1Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV1Test.begin_exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV2Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloTraceV2Test.begin_exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateCallbackTest.callbackV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateCallbackTest.callbackV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateMethodTest.templateMethodV2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreadLocalLogTraceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreadLocalServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdvancedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study/Spring_Study/스프링_고급편/코드/advanced&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\Spring_Study\스프링_고급편\코드\advanced\src\main\java\hello\advanced\app\v5" />
@@ -270,6 +262,8 @@
       <workItem from="1782104579007" duration="313000" />
       <workItem from="1782104902261" duration="24000" />
       <workItem from="1782191918856" duration="47000" />
+      <workItem from="1782200720992" duration="195000" />
+      <workItem from="1782642448764" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="26.06.08">
       <option name="closed" value="true" />

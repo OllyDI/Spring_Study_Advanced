@@ -55,7 +55,7 @@ public class ProxyFactoryTest {
     }
 
     @Test
-    @DisplayName("proxyTargetClass 옵션 사용시 인터페이스가 있으면 CGLIB를 사용, 클래스 기반 프록시 사용")
+    @DisplayName("proxyTargetClass 옵션 사용시 인터페이스가 있어도 CGLIB를 사용, 클래스 기반 프록시 사용")
     void proxyTargetClass() {
         ServiceInterface target = new ServiceImpl();
         ProxyFactory proxyFactory = new ProxyFactory(target);

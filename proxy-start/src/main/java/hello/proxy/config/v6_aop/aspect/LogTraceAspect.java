@@ -19,7 +19,7 @@ public class LogTraceAspect {
         this.logTrace = logTrace;
     }
 
-    @Around("execution(* hello.proxy.app..*(..))")  // 포인트컷
+    @Around("execution(* hello.proxy.app..*(..)) && !execution(* hello.proxy.app..noLog(..))")  // 포인트컷
     public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
 
         TraceStatus status = null;

@@ -54,13 +54,13 @@ public class ParameterTest {
             log.info("[logArgs3] arg={}", arg);
         }
 
-        // this: 스프링 컨테이너에 있는 객체 -> 프록시 객체
+        // this: 스프링 컨테이너에 있는 객체 -> 프록시 객체, JDK 동적 프록시 구체클래스 지정시 AOP 적용 X -> CGLIB 구체 클래스는 AOP 적용 O
         @Before("allMember() && this(obj)")
         public void thisArgs(JoinPoint joinPoint, MemberService obj) {
             log.info("[this]={}, obj={}", joinPoint.getSignature(), obj.getClass());
         }
 
-        // target: 프록시가 호출할 실제 객체 -> 실제 객체
+        // target: 프록시가 호출할 실제 객체 -> 실제 객체, 구체클래스 or 인터페이스 지정해도 AOP 적용 O
         @Before("allMember() && target(obj)")
         public void targetArgs(JoinPoint joinPoint, MemberService obj) {
             log.info("[target]={}, obj={}", joinPoint.getSignature(), obj.getClass());

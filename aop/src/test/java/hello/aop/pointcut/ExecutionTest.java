@@ -183,7 +183,7 @@ public class ExecutionTest {
         /*
          슈퍼 타입 매치
          선언타입?: hello.aop.member.MemberService -> 부모타입
-         부모타입에 선언된 메서드까지만 가능 -> 자식타입의 내부 메서드는 매칭 불가
+         부모타입에 선언된 메서드까지만 가능 -> 자식타입의 internal 내부 메서드는 매칭 불가
         */
         pointcut.setExpression("execution(* hello.aop.member.MemberService.*(..))");
         Method internalMethod = MemberServiceImpl.class.getMethod("internal", String.class);

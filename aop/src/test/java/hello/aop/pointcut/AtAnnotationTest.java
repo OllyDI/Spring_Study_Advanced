@@ -33,7 +33,7 @@ public class AtAnnotationTest {
     static class AtAnnotationAspect {
 
         @Around("@annotation(hello.aop.member.annotation.MethodAop)")
-        public Object doAtannotation(ProceedingJoinPoint joinPoint) throws Throwable {
+        public Object doAtAnnotation(ProceedingJoinPoint joinPoint) throws Throwable {
             log.info("[@annotation] {}", joinPoint.getSignature());
             return joinPoint.proceed();
         }

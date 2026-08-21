@@ -13,7 +13,7 @@ public class CallServiceV1 {
 
     // 자기 자신 의존관계 주입 방법 setter 사용 -> 프록시 적용 O
     @Autowired
-    public void setCallServiceV1(@Lazy CallServiceV1 callServiceV1) {
+    public void setCallServiceV1(CallServiceV1 callServiceV1) {
         this.callServiceV1 = callServiceV1;
     }
 

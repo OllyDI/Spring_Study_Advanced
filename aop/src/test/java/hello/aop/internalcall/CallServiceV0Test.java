@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Import;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * 실제 대상 객체 내부에서 내부 메서드 호출 시 AOP 적용 X
+ * 실제 대상 객체 내부에서 내부 메서드 호출 시 AOP 적용 X 문제 발생
  */
 
 @Slf4j

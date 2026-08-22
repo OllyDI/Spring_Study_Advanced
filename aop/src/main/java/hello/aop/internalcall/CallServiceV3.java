@@ -6,7 +6,7 @@ import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.stereotype.Component;
 
 /**
- * 가장 권장하는 방법 -> 구조 변경(분리)
+ * 가장 권장하는 방법 -> 구조 변경(분리), 외부에서 internal 메서드 호출
  */
 @Slf4j
 @Component
